@@ -1,0 +1,9 @@
+test:
+  override:
+    - echo "eat a dick, mrs. stanwick"
+
+deployment:
+  demo:
+    branch: master
+    commands:
+      - curl https://circleci.com/api/v1/project/coffeepac/grabbag/tree/master?circle-token=$CIRCLE_TOKEN
